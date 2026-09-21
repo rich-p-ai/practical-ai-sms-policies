@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SMS Signup — Practical AI Call Ops</title>
+<style>body{font-family:system-ui,sans-serif;max-width:560px;margin:40px auto;padding:0 16px;line-height:1.5;color:#111}label{display:block;margin:12px 0}input[type=tel],button{font-size:16px;padding:8px 12px}button{cursor:pointer}.note{font-size:14px;color:#333}</style>
+</head>
+<body>
+<h1>Practical AI Call Ops — SMS Signup</h1>
+<p>Opt in to transactional SMS from Practical Ai LLC for <strong>appointment confirmation</strong> and <strong>missed-call follow-up</strong> related to Practical AI scheduling. Not for marketing.</p>
+<form id="signup" action="#" method="get" onsubmit="document.getElementById('done').hidden=false; return false;">
+<label>Mobile number<br/><input type="tel" name="phone" required placeholder="+1 555 555 5555" autocomplete="tel"/></label>
+<label class="note"><input type="checkbox" name="consent" required/> I agree to receive transactional Call Ops texts from Practical AI at the number above. Message frequency varies (up to about 10 msgs/month). Message and data rates may apply. Reply STOP to cancel, HELP for help.</label>
+<p class="note">Privacy Policy: <a href="https://cdn.jsdelivr.net/gh/rich-p-ai/practical-ai-sms-policies@main/privacy.html">privacy</a> (we do not share mobile numbers with third parties for marketing). Terms: <a href="https://cdn.jsdelivr.net/gh/rich-p-ai/practical-ai-sms-policies@main/terms.html">terms</a>.</p>
+<button type="submit">Agree &amp; opt in</button>
+</form>
+<p id="done" hidden><strong>Thanks.</strong> You are opted in for Call Ops transactional SMS. Reply STOP anytime to opt out.</p>
+<p class="note">From: +1 (843) 806-2290 · Practical Ai LLC · rich@p-ai.net</p>
+</body>
+</html>
